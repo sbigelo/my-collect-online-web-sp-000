@@ -8,7 +8,3 @@ def my_collect(collection)
   end
   collections
 end
-
-my_collect(collection) do |name|
-  name.split(" ").first
-end
